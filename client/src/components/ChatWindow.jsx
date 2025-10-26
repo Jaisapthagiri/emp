@@ -31,8 +31,21 @@ const ChatWindow = () => {
     return (
         <div className="flex-1 flex flex-col">
             {/* Header */}
-            <div className="p-4 border-b border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-800 font-semibold text-indigo-600 dark:text-indigo-400">
-                {selectedUser.name}
+            <div className="flex items-center p-4 border-b mt-10 border-zinc-300 dark:border-zinc-700 bg-white dark:bg-zinc-800">
+                {/* Avatar */}
+                <div className="w-10 h-10 mt-2 rounded-full bg-indigo-600 dark:bg-indigo-400 text-white flex items-center justify-center font-bold mr-4">
+                    {selectedUser.name[0]}
+                </div>
+
+                {/* Name and position */}
+                <div className="flex flex-col">
+                    <span className="text-lg mt-2 font-semibold text-indigo-600 dark:text-indigo-400">
+                        {selectedUser.name}
+                    </span>
+                    <span className="text-sm text-gray-500 dark:text-gray-300">
+                        {selectedUser.position}
+                    </span>
+                </div>
             </div>
 
             {/* Messages */}
@@ -40,11 +53,10 @@ const ChatWindow = () => {
                 {messages.map((m) => (
                     <div
                         key={m._id}
-                        className={`max-w-xs md:max-w-md mb-2 p-2 rounded-lg wrap-break-word ${
-                            m.senderId === user._id
+                        className={`max-w-xs md:max-w-md mb-2 p-2 rounded-lg wrap-break-word ${m.senderId === user._id
                                 ? "ml-auto bg-indigo-600 text-white"
                                 : "mr-auto bg-white dark:bg-zinc-700 text-black dark:text-white"
-                        }`}
+                            }`}
                     >
                         {m.text}
                         <div className="text-xs mt-1 text-gray-200 dark:text-gray-400 text-right">

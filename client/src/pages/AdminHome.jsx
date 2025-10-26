@@ -41,7 +41,7 @@ const AdminHome = () => {
             {/* Features Section */}
             <section className="py-16 px-6 bg-white dark:bg-zinc-900 border-t border-zinc-200 dark:border-zinc-800">
                 <h2 className="text-3xl font-semibold text-center text-indigo-600 dark:text-indigo-400 mb-10">
-                    Key Admin Features
+                    Use This Key Admin Features
                 </h2>
 
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-6xl mx-auto">

@@ -67,7 +67,7 @@ const AddEmployee = () => {
             <input
               type="text"
               name="name"
-              placeholder="John Doe"
+              placeholder="Employee Name"
               value={formData.name}
               onChange={handleChange}
               required
@@ -85,7 +85,7 @@ const AddEmployee = () => {
             <input
               type="email"
               name="email"
-              placeholder="example@company.com"
+              placeholder="Employee Email"
               value={formData.email}
               onChange={handleChange}
               required
@@ -103,7 +103,7 @@ const AddEmployee = () => {
             <input
               type="password"
               name="password"
-              placeholder="Set a secure password"
+              placeholder="Set a strong password"
               value={formData.password}
               onChange={handleChange}
               required
@@ -139,7 +139,7 @@ const AddEmployee = () => {
             <input
               type="text"
               name="department"
-              placeholder="e.g. HR, IT, Marketing"
+              placeholder="e.g. HR, IT"
               value={formData.department}
               onChange={handleChange}
               required

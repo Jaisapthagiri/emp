@@ -6,7 +6,7 @@ const Sidebar = () => {
 
     return (
         <div className="w-64 bg-white dark:bg-zinc-800 border-r border-zinc-300 dark:border-zinc-700 overflow-y-auto">
-            <h2 className="p-4 font-bold text-indigo-600 dark:text-indigo-400">Chats</h2>
+            <h2 className="p-4 font-bold text-indigo-600 mt-10 dark:text-indigo-400">Chats</h2>
             {users.map((u) => (
                 <div
                     key={u._id}

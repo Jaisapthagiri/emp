@@ -11,7 +11,7 @@ const Chat = () => {
     }, []);
 
     return (
-        <div className="flex h-screen bg-gray-100 dark:bg-zinc-900">
+        <div className="fixed inset-0 flex bg-gray-100 dark:bg-zinc-900">
             <Sidebar />
             <ChatWindow />
         </div>
