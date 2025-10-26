@@ -7,8 +7,8 @@ The system enables Admins and Employees to collaborate in real time — managing
 
 ## Live Deployment & API Testing Links
 
-* **Frontend :** [https://employee-task-management-kohl.vercel.app](https://emp-sand.vercel.app)
-* **Backend & API:** [https://employee-task-management-kohl.vercel.app](https://backend-5xkf.onrender.com)
+* **Frontend :** Client(https://emp-sand.vercel.app)
+* **Backend & API:** Backend(https://backend-5xkf.onrender.com)
 * **API Testing Guide (Postman Collection / Documentation):** [Drive Link](https://drive.google.com/file/d/1xUAIZNuBKgzYp6OeYdyE7fmfsJvrl9-T/view?usp=sharing)
 
 ---
