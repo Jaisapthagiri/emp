@@ -1,7 +1,7 @@
 # Employee Task Management System (Admin & Employee)
 
 A full-stack Employee Task Management System built using **Node.js, Express, MongoDB, React, and Socket.io**.
-The system enables Admins and Employees to collaborate in real time — managing tasks, tracking progress, and chatting instantly.
+The system enables Admins and Employees to collaborate in **real time** — managing **tasks**, **tracking progress**, and **chatting** **instantly**.
 
 ---
 
